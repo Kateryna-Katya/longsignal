@@ -119,3 +119,41 @@ font-weight: 500;
     text-align: center;
 }    
 }
+/* The signal is not stable It breathes */
+@media only screen and (min-width: 1440px) {
+.mob{
+    display: none;
+}
+}
+/* Every fragment feels like it was left for someone specific */
+.every-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.every-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+ .every-container{
+flex-direction: row-reverse;
+gap: 64px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.every-wrapper{
+width: 915px;
+}
+.every-wrapper h2{
+    text-align: left;
+}
+.every-text-wrapper{
+    width: 890px;
+gap: 20px;
+}   
+}
