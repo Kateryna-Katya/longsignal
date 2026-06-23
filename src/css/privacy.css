@@ -72,6 +72,9 @@ font-family: "Inter", sans-serif;
 .policy-list-item{
     padding-left: 20px;
 }
+.policy-number{
+    padding-left: 20px;
+}
 @media only screen and (min-width: 1440px) {
     .policy-container {
         padding-left: 70px;
