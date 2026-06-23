@@ -47,3 +47,29 @@ width: 892px;
         font-size: 22px;
     }
 }
+/* This is not a chase. It is a conversation */
+.chase-section{
+background: #0b1831;
+}
+.chase-section h2{
+    color: #fff;
+}
+.chase-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+}
+.small-chase{
+font-size: 12px;
+}
+@media only screen and (min-width: 1440px) {
+.chase-text-wrapper{
+width: 874px;
+margin-left: auto;
+margin-right: auto;
+}
+.small-chase{
+font-size: 14px;
+}    
+}
