@@ -1,0 +1,49 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+.home-title{
+font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #010101;
+}
+.home-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+    .home-container {
+        flex-direction: row;
+        gap: 64px;
+        padding-top: 160px;
+    }
+
+    .home-wrapper {
+width: 892px;
+    }
+
+    .home-title {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .home-text-wrapper {
+
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .contact-link {
+        width: 411px;
+        font-size: 22px;
+    }
+}
